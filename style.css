@@ -19,7 +19,7 @@ header{
     margin-inline:auto;
     display:flex;
     align-items: center;
-    justify-content:space-between;
+   justify-content: space-between;
     font-weight:500;
 }
 .switch-mode{
@@ -32,7 +32,7 @@ main{
     max-width:90%;
     margin-inline:auto;
     display:flex;
-    justify-content:space-between;
+    justify-content: center;
     flex-wrap:wrap;
     gap:3rem;
 }
@@ -75,13 +75,16 @@ main{
         padding-block:2rem;
     }
     .countries-container{
-        justify-content: space-evenly;
+        min-width:95%;
         gap:2rem;
     }
 
 .country-card{
-    max-width:300px;
+    max-width:240px;
     border-radius:12px;
    
+}
+.country-details p{
+    font-size:14px;
 }
 }
